@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CityMoveNavigator - Kondisi Lalu Lintas</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style-traffic.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">CityMoveNavigator</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="routes.html">Transportation Route</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="traffic.html">Traffic Conditions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tips.html">Tips & Info</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mt-5">
+        <h1>Kondisi Lalu Lintas</h1>
+        <p>Di bawah ini adalah update terbaru mengenai kondisi lalu lintas di kota. Cek peta untuk melihat area macet dan dapatkan saran rute alternatif.</p>
+
+        <div id="map" style="height: 500px; margin-top: 20px;"></div>
+
+        <div class="mt-4">
+            <h4>Informasi Kemacetan</h4>
+            <p id="trafficInfo">Cek peta untuk melihat area yang mengalami kemacetan atau penutupan jalan.</p>
+            <p id="suggestions">Saran rute alternatif akan ditampilkan di peta.</p>
+        </div>
+        <br>
+        <br>
+    </main>
+
+    <footer class="bg-light text-center py-3">
+        <p>&copy; 2024 CityMoveNavigator. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="script-traffic.js"></script>
+</body>
+</html>

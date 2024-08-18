@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CityMoveNavigator - Busway</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style-busway.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">CityMoveNavigator</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="routes.html">Transportation Route</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="traffic.html">Traffic Conditions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tips.html">Tips & Info</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mt-5">
+        <div class="row">
+            <div class="col-lg-8">
+                <h1>Busway - Transportasi Massal yang Handal</h1>
+                <p>Busway adalah salah satu moda transportasi publik utama di kota besar. Dengan jalur khusus, Busway menawarkan perjalanan yang lebih cepat dan efisien, terutama di jam-jam sibuk.</p>
+
+                <div class="accordion" id="buswayAccordion">
+                    <div class="card">
+                        <div class="card-header" id="typeStandard">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTypeStandard" aria-expanded="true" aria-controls="collapseTypeStandard">
+                                    Busway Standar
+                                </button>
+                            </h2>
+                        </div>
+
+                        <div id="collapseTypeStandard" class="collapse show" aria-labelledby="typeStandard" data-parent="#buswayAccordion">
+                            <div class="card-body">
+                                <img src="Gb/202405080758-main.cropped_1715129911.jpg" class="card-img-top mx-auto mt-3">
+                                Busway Standar adalah jenis busway yang paling umum digunakan, dengan rute yang mencakup sebagian besar area kota. Dirancang untuk menampung banyak penumpang dengan nyaman.
+                                <ul>
+                                    <li><strong>Kecepatan Maksimum:</strong> 60 km/h.</li>
+                                    <li><strong>Kapasitas:</strong> Hingga 80 penumpang per bus.</li>
+                                    <li><strong>Fasilitas:</strong> AC, tempat duduk standar, dan aksesibilitas untuk penyandang disabilitas.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="typeArticulated">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTypeArticulated" aria-expanded="false" aria-controls="collapseTypeArticulated">
+                                    Busway Artikulasi
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseTypeArticulated" class="collapse" aria-labelledby="typeArticulated" data-parent="#buswayAccordion">
+                            <div class="card-body">
+                                <img src="Gb/Harmoni_Central_Busway_Transjakarta_4.jpeg" class="card-img-top mx-auto mt-3">
+                                Busway Artikulasi memiliki kapasitas yang lebih besar dengan desain bus yang lebih panjang dan berbagi dua bagian yang terhubung. Ideal untuk rute dengan penumpang yang padat.
+                                <ul>
+                                    <li><strong>Kecepatan Maksimum:</strong> 55 km/h.</li>
+                                    <li><strong>Kapasitas:</strong> Hingga 120 penumpang per bus.</li>
+                                    <li><strong>Fasilitas:</strong> AC, tempat duduk yang lebih banyak, dan area berdiri yang luas.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="typeElectric">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTypeElectric" aria-expanded="false" aria-controls="collapseTypeElectric">
+                                    Busway Listrik
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseTypeElectric" class="collapse" aria-labelledby="typeElectric" data-parent="#buswayAccordion">
+                            <div class="card-body">
+                                <img src="Gb/796073_1200.jpg" class="card-img-top mx-auto mt-3">
+                                Busway Listrik adalah inovasi terbaru dalam transportasi publik, dengan bus yang digerakkan oleh tenaga listrik untuk mengurangi emisi karbon dan menciptakan lingkungan yang lebih bersih.
+                                <ul>
+                                    <li><strong>Kecepatan Maksimum:</strong> 50 km/h.</li>
+                                    <li><strong>Kapasitas:</strong> Hingga 100 penumpang per bus.</li>
+                                    <li><strong>Fasilitas:</strong> AC, tempat duduk ergonomis, Wi-Fi, dan stasiun pengisian daya USB.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Gb/DSCN1199-01-scaled.jpeg" class="card-img-top" alt="Busway">
+                    <div class="card-body">
+                        <h5 class="card-title">Mengapa Memilih Busway?</h5>
+                        <p class="card-text">Busway menawarkan solusi transportasi massal yang efisien dan nyaman, dengan jalur khusus yang menghindari kemacetan kota.</p>
+                        <a href="#" class="btn btn-primary">Pelajari Lebih Lanjut</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+    </main>
+
+    <footer class="bg-light text-center py-3">
+        <p>&copy; 2024 CityMoveNavigator. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

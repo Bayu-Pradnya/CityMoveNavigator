@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    color: #343a40;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.card-title {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+footer {
+    background-color: #e9ecef;
+    border-top: 1px solid #dee2e6;
+    color: #6c757d;
+}
+
+.accordion .card-header {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.accordion .btn-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.accordion .btn-link:hover {
+    text-decoration: underline;
+}
+
+.accordion .collapse.show .btn-link::after {
+    transform: rotate(-180deg);
+}
